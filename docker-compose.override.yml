@@ -1,0 +1,7 @@
+services:
+  web:
+    environment:
+      OLLAMA_MODEL: "llama3.2:3b"
+      SEC_OUTPUT_ENCODING: "0"
+      SEC_SYSTEM_PROMPT_HARDENING: "1"
+      SEC_INPUT_FILTER: "1"
